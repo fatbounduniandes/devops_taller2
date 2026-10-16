@@ -3,6 +3,7 @@ version: 0.2
 phases:
   pre_build:
     commands:
+      - echo "Iniciando compilacion Tutorial 2 DevOps..."
       - pip install -r requirements.txt
 artifacts:
   files:
